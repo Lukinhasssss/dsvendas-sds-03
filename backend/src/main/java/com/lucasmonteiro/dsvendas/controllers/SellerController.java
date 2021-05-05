@@ -1,4 +1,4 @@
-package com.lucasmonteiro.dsvendas.resources;
+package com.lucasmonteiro.dsvendas.controllers;
 
 import java.util.List;
 
@@ -13,7 +13,7 @@ import com.lucasmonteiro.dsvendas.services.SellerService;
 
 @RestController
 @RequestMapping(value = "/sellers")
-public class SellerResource {
+public class SellerController {
 	
 	@Autowired
 	private SellerService service;
